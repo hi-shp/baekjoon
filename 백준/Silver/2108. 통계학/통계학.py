@@ -1,3 +1,5 @@
+import sys
+input = sys.stdin.readline
 T = int(input())
 a = [int(input()) for _ in range(T)]
 print(round(sum(a)/T))
